@@ -1,0 +1,33 @@
+
+body
+{
+    background: linear-gradient(black, white);
+}
+
+.main {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    height: 400px;
+}
+.textarea {
+    margin-bottom: 10px;
+}
+.heading {
+    color: white;
+}
+#text {
+    background-color: black;
+    color: #ccc;
+    width: 100%;
+    height: 400px;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 16px; 
+}
+.btn {
+    margin: 5px;
+    font-size: 20px;
+    border-radius: 10px 10px 3px 10px;
+}
