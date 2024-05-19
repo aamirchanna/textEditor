@@ -3,6 +3,7 @@ let bold = document.getElementById('bold');
 let Italic = document.getElementById('italic');
 let Underline = document.getElementById('underline');
 let Color = document.getElementById('color');
+let Strike = document.getElementById('strike');
 
 
 bold.addEventListener('click' , ()=> {
@@ -28,6 +29,14 @@ Underline.addEventListener('click', ()=>{
         main.style.textDecoration= ''
     }else {
         main.style.textDecoration = 'underline'
+    }
+})
+
+Strike.addEventListener('click', ()=>{
+    if(main.style.textDecoration === 'line-through'){ 
+        main.style.textDecoration= ''
+    }else {
+        main.style.textDecoration = 'line-through'
     }
 })
 

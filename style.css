@@ -4,6 +4,8 @@ body
     background: linear-gradient(black, white);
 }
 
+
+
 .main {
     border: 1px solid #ccc;
     padding: 20px;
@@ -27,7 +29,9 @@ body
     font-size: 16px; 
 }
 .btn {
+    /* background-color: transparent; */
     margin: 5px;
+    /* color: white; */
     font-size: 20px;
     border-radius: 10px 10px 3px 10px;
 }
