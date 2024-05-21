@@ -2,7 +2,7 @@ let main = document.getElementById('text');
 let bold = document.getElementById('bold');
 let Italic = document.getElementById('italic');
 let Underline = document.getElementById('underline');
-let Color = document.getElementById('color');
+let color = document.getElementById('color');
 let Strike = document.getElementById('strike');
 
 
@@ -40,8 +40,12 @@ Strike.addEventListener('click', ()=>{
     }
 })
 
-
 let input_val = document.getElementById('fontSize');
 input_val.addEventListener('input', () => {
     main.style.fontSize = input_val.value + 'px';
 });
+
+color.addEventListener("click", function(){
+let change = event.target.value;
+main.style.color = change ;
+})
