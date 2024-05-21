@@ -45,7 +45,8 @@ input_val.addEventListener('input', () => {
     main.style.fontSize = input_val.value + 'px';
 });
 
-color.addEventListener("click", function(){
-let change = event.target.value;
-main.style.color = change ;
+color.addEventListener("input", function(){
+// let change = event.target.value;
+main.style.color = color.value ;
+
 })
